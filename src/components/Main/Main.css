@@ -1,0 +1,65 @@
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    background-color: #f037a5;
+    background: linear-gradient(#f037a5 -60%,#fae62d 140%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(-60%,#f037a5),color-stop(140%,#fae62d));
+}
+
+.jumbotron {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.hero-img {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://www.scdn.co/i/home/hero-burst.svg);
+}
+
+.main-content {
+    padding-top: 20%;
+    transition: transform .2s;
+    color: white;
+}
+
+.main-content > h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.main-content > h1:hover {
+    transform: scale(1.05);
+}
+
+
+.main-content > h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.main-content > button{
+    border: 0px;
+    font-size: 14px;
+    width: 252.656px;
+    height: 47.4844px;
+    border-radius: 500px;
+    background-color: #1DB954;
+    color: white;
+}
+
+.main-content >button:hover {
+    border: 0px;
+    font-size: 14px;
+    width: 252.656px;
+    cursor: pointer;
+    height: 47.4844px;
+    border-radius: 500px;
+    border: 1px solid white;
+    background-color: #1DB954;
+}
